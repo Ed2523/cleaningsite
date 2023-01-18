@@ -1,0 +1,44 @@
+@import url(//db.onlinewebfonts.com/c/c017c9efb81f32559dee68fa54edbde4?family=ReklameScriptW00-Medium);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap");
+.nav {
+  min-height: 15vh;
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45%;
+  font-family: reklamescriptw00-medium, cursive;
+  font-size: 6.5rem;
+  letter-spacing: 0.4rem;
+  color: #237fb0;
+  padding: 1rem 0;
+}
+.logo img {
+  width: 11.7rem;
+  height: 7rem;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+  list-style-type: none;
+}
+.links a {
+  text-decoration: none;
+  color: grey;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.socialIcons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 15%;
+    gap: 1rem
+}
+.socialIcons a img{
+    width: 4.2rem;
+}
