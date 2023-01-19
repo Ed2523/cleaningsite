@@ -1,0 +1,22 @@
+.welcome-section {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-section-img-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.welcome-section-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.welcome-section-title {
+  position: absolute;
+  z-index: 1;
+  color: #025161;
+  font-size: 5rem;
+}
